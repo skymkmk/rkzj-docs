@@ -36,8 +36,8 @@ export default defineUserConfig<DefaultThemeOptions>({
       editLink: true,
       editLinkText: '编辑此页',
       lastUpdated: true,
-      lastUpdatedText: '上次更新：',
+      lastUpdatedText: '上次更新',
       contributors: true,
-      contributorsText: '贡献者：'
+      contributorsText: '贡献者'
     },
 })
