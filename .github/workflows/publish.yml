@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2.4.0
     - name: Download Dependency & Build it 🛠
       run: |
-        yarn i
+        yarn install
         yarn docs:build
     - name: Publish it! 🌐
       uses: easingthemes/ssh-deploy@v2.2.11
