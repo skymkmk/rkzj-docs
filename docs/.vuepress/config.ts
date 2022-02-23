@@ -35,6 +35,8 @@ export default defineUserConfig<DefaultThemeOptions>({
       ],
       editLink: true,
       editLinkText: '编辑此页',
+      docsBranch: 'master',
+      docsDir: 'docs',
       lastUpdated: true,
       lastUpdatedText: '上次更新',
       contributors: true,
