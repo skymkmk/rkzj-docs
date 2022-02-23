@@ -16,7 +16,7 @@ import ParentLayout from "@vuepress/theme-default/lib/client/layouts/Layout.vue"
             href="//creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
             target="_blank"
             >署名-非商业性使用-禁止演绎 4.0 国际<img
-              src="cc.svg"
+              src="../icons/cc.svg"
               alt="创意共享"
               style="
                 height: 1.2em;
@@ -24,7 +24,7 @@ import ParentLayout from "@vuepress/theme-default/lib/client/layouts/Layout.vue"
                 margin-left: 0.2em;
                 vertical-align: text-bottom;
               " /><img
-              src="by.svg"
+              src="../icons/by.svg"
               alt="署名"
               style="
                 height: 1.2em;
@@ -32,7 +32,7 @@ import ParentLayout from "@vuepress/theme-default/lib/client/layouts/Layout.vue"
                 margin-left: 0.2em;
                 vertical-align: text-bottom;
               " /><img
-              src="nc.svg"
+              src="../icons/nc.svg"
               alt="非商业性使用"
               style="
                 height: 1.2em;
@@ -40,7 +40,7 @@ import ParentLayout from "@vuepress/theme-default/lib/client/layouts/Layout.vue"
                 margin-left: 0.2em;
                 vertical-align: text-bottom;
               " /><img
-              src="nd.svg"
+              src="../icons/nd.svg"
               alt="禁止演绎"
               style="
                 height: 1.2em;
@@ -60,7 +60,7 @@ import ParentLayout from "@vuepress/theme-default/lib/client/layouts/Layout.vue"
             href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=34019102000913"
             target="_self"
             ><img
-              src="beian.webp"
+              src="../icons/beian.webp"
               alt="公安备案"
               style="margin: 0 0.2em; vertical-align: text-bottom"
             />皖公网安备 34019102000913号</a
