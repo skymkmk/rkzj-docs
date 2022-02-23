@@ -1,0 +1,23 @@
+name: Publish to Website
+on: push
+jobs:
+  build-and-depoly:
+    name: Build and Depoly 👨‍👩‍👧‍👦
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout ✈️
+      uses: actions/checkout@v2.4.0
+    - name: Download Dependency & Build it 🛠
+      run: |
+        yarn i
+        yarn docs:build
+    - name: Publish it! 🌐
+      uses: easingthemes/ssh-deploy@v2.2.11
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+        ARGS: "-rltgoDzvO"
+        SOURCE: "dist/"
+        REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+        REMOTE_USER: ${{ secrets.REMOTE_USER }}
+        TARGET: ${{ secrets.REMOTE_TARGET }}
+        EXCLUDE: "/dist/, /node_modules/"

@@ -1,0 +1,15 @@
+{
+  "name": "rkzj-docs",
+  "version": "1.0.0",
+  "description": "A rkzj Q&A Doc",
+  "main": "index.js",
+  "repository": "https://github.com/skymkmk/rkzj-docs",
+  "author": "skymkmk <admin@skymkmk.com>",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
